@@ -37,7 +37,8 @@ const Tabs = () => {
               size={25}
               color={focused ? 'tomato' : 'black'}
             />
-          )
+          ),
+          headerShown: false
         }}
       />
       <Tab.Screen
@@ -50,7 +51,8 @@ const Tabs = () => {
               size={25}
               color={focused ? 'tomato' : 'black'}
             />
-          )
+          ),
+          headerShown: false
         }}
       />
       <Tab.Screen
@@ -63,7 +65,8 @@ const Tabs = () => {
               size={25}
               color={ focused ? 'tomato' : 'black'}
             />
-          )
+          ),
+          headerShown: false
         }}
       />
     </Tab.Navigator>
