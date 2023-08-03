@@ -5,7 +5,7 @@ import {
   SafeAreaView,
   StyleSheet,
   // Platform,
-  StatusBar
+  // StatusBar
 } from 'react-native'
 import { Feather } from '@expo/vector-icons'
 import RowText from '../components/RowText'
@@ -50,9 +50,9 @@ const CurrentWeather = () => {
 const styles = StyleSheet.create({
   wrapper: {
     flex: 1,
-    backgroundColor: 'skyblue',
+    backgroundColor: '#D6EAF8',
     // paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0
-    marginTop: StatusBar.currentHeight || 0
+    // marginTop: StatusBar.currentHeight || 0
   },
   container: {
     flex: 1,
